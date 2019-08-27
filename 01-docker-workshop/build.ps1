@@ -1,1 +1,1 @@
-docker build -t custom-nginx:latest -t custom-nginx:0.01 .
+docker build -t custom-nginx:latest -t custom-nginx:$(GitVersion /Showvariable SemVer) .
