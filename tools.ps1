@@ -1,0 +1,1 @@
+choco install gitversion.portable --version 4.0.0
