@@ -1,4 +1,4 @@
-FROM microsoft/iis:10.0.14393.206​
+FROM microsoft/iis
 
 SHELL ["powershell"]​​
 
