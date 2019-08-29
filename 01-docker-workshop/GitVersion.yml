@@ -5,5 +5,6 @@ branches:
     regex: dev(elop)?(\/\w.*)?(ment)?$
   release:
     mode: ContinuousDeployment
+    prevent-increment-of-merged-branch-version: false
 ignore:
   sha: []
