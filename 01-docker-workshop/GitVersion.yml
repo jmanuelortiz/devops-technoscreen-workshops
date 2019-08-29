@@ -1,6 +1,9 @@
+mode: Mainline
 branches:
   develop:
     mode: ContinuousDeployment
     regex: dev(elop)?(\/\w.*)?(ment)?$
+  release:
+    mode: ContinuousDeployment
 ignore:
   sha: []
