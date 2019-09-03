@@ -1,1 +1,0 @@
-docker build --no-cache -t  custom-nginx:latest  -t custom-nginx:$(GitVersion /Showvariable SemVer) . 
