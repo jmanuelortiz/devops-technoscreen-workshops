@@ -1,0 +1,10 @@
+mode: Mainline
+branches:
+  develop:
+    mode: ContinuousDeployment
+    regex: dev(elop)?(\/\w.*)?(ment)?$
+  release:
+    mode: ContinuousDelivery
+    prevent-increment-of-merged-branch-version: false
+ignore:
+  sha: []
