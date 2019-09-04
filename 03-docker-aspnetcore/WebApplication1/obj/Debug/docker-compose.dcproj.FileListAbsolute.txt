@@ -1,1 +1,0 @@
-D:\outsourcing\devops-technoscreen\devops-technoscreen-workshops\03-docker-aspnetcore\WebApplication1\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
